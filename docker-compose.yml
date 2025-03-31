@@ -7,6 +7,7 @@ services:
   # Name the service
   calculator:
 
+    # Image to be pulled from Google Artifact Registry
     image: australia-southeast2-docker.pkg.dev/sit737-25t1-jarjana-785f7a0/s224021028-ar/s224021028/sit737-2025-prac5p-calculator:latest
     
     # Expose container port 3000 on host port 3000
