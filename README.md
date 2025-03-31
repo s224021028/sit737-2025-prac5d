@@ -39,7 +39,7 @@ To run this microservice from an image, you need to have Docker installed
 ### Google Cloud Artifact Registry
 To push the built image to cloud
 
-- Create a repository on Google Artifact Registry
+- Create a repository on Google Artifact Registry with the name s224021028-ar
 - Install gcloud CLI
 
 - Authenticate to Google Cloud with:
