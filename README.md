@@ -50,6 +50,7 @@ To push the built image to cloud
 
 - Tag and push the image to Google ACR with:
 ```docker tag s224021028/sit737-2025-prac5p-calculator australia-southeast2-docker.pkg.dev/sit737-25t1-jarjana-785f7a0/s224021028-ar/s224021028/sit737-2025-prac5p-calculator:latest```
+
 ```docker push australia-southeast2-docker.pkg.dev/sit737-25t1-jarjana-785f7a0/s224021028-ar/s224021028/sit737-2025-prac5p-calculator:latest```
 
 ## Testing the Microservice
