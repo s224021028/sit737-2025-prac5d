@@ -33,13 +33,13 @@ To run this microservice from an image, you need to have Docker installed
 ```docker-compose down```
 
 - Tag and Push the image to a registry (Docker Hub) with:
-```docker tag sit737-2025-prac5p-calculator-1 s224021028/sit737-2025-prac5p-calculator-1```
+```docker tag sit737-2025-prac5p-calculator-1 s224021028/sit737-2025-prac5p-calculator-1```<br><br>
 ```docker push s224021028/sit737-2025-prac5p-calculator-1```
 
 ### Google Cloud Artifact Registry
 To push the built image to cloud
 
-- Create a repository on Google Artifact Registry
+- Create a repository on Google Artifact Registry with the name <b>s224021028-ar</b>
 - Install gcloud CLI
 
 - Authenticate to Google Cloud with:
@@ -49,7 +49,7 @@ To push the built image to cloud
 ```docker login -u oauth2accesstoken -p "$(gcloud auth print-access-token)" australia-southeast2-docker.pkg.dev/sit737-25t1-jarjana-785f7a0/s224021028-ar```
 
 - Tag and push the image to Google ACR with:
-```docker tag s224021028/sit737-2025-prac5p-calculator australia-southeast2-docker.pkg.dev/sit737-25t1-jarjana-785f7a0/s224021028-ar/s224021028/sit737-2025-prac5p-calculator:latest```
+```docker tag s224021028/sit737-2025-prac5p-calculator australia-southeast2-docker.pkg.dev/sit737-25t1-jarjana-785f7a0/s224021028-ar/s224021028/sit737-2025-prac5p-calculator:latest```<br><br>
 ```docker push australia-southeast2-docker.pkg.dev/sit737-25t1-jarjana-785f7a0/s224021028-ar/s224021028/sit737-2025-prac5p-calculator:latest```
 
 ## Testing the Microservice
